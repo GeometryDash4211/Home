@@ -1,0 +1,20 @@
+
+<link rel="stylesheet" href="/Grand-Shift-Auto-v2/uploads/style.css">
+    <script src="/Grand-Shift-Auto-v2/uploads/UnityProgress.js"></script>
+    <script src="/Grand-Shift-Auto-v2/uploads/unityloader05.js"></script>
+
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "/Grand-Shift-Auto-v2/uploads/actionsim.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+    <div class="webgl-content">
+        <div id="gameContainer" style="width: 100%; height: 100%; margin: auto"></div>
+        </div>
+		 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146349913-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146349913-1');
+</script>
